@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<style>
+  form:invalid input[type="submit"] {
+    opacity: 0.25;
+  }
+</style>
+		<link href="css/style.css" rel="stylesheet" type="text/css"/>
+		<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+		<script src="js/jquery-validate.js"></script>
+	</head>
+
+	<script type=text/javascript>
+		$(function () {
+			window.validation.init({
+				container: '.form-1',
+				submitHandler: function () {
+					alert('check');
+				}
+			});
+		});
+	</script>
+
+	<body>
+		<div class="page">
+		<header class="header"></header>
+		<main class="content">
+		<div class="form-1 form">
+			
+
+			<p class="registration__text-email">Email:<input type="text" name="Email" class="field-input field-input_active required email"></p>
+
+			<div class="password-block">
+			<p class="password-block__text-password">Пароль:<input type="password" name="Password" class="field-input field-input_active required password"></p>
+			<p class="password-block__text-password-confirmation">Подтверждение пароля:<input type="password" name="CheckPass" class="field-input field-input_active required confirmfield" confirm-field="Password" />
+			</div>
+
+			<div class="phone-block">
+			<p class="phone-block__text-phone">Телефон:<input type="text" name="Phone" class="field-input field-input_active required phone"></p>
+			</div>
+
+      <form method="POST" id="target">
+			<input type="checkbox" name="agree" value="1" id="agree" style="margin-left: 200px;" required><b> <span>Я согласен с условиями и правилами сайта
+			<p><input class="save-button save-button_active" type="submit" value="Регистрация"></p>
+			</form>
+
+		</div>
+		</main>
+		</div>
+	</body>
+	<footer class="footer">
+</footer>
+</html>

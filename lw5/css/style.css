@@ -1,0 +1,176 @@
+@font-face {
+  font-family: corbel;
+  src: url(fonts/corbel.ttf);
+}
+
+@font-face {
+  font-family: arial;
+  src: url(fonts/arial.ttf);
+}
+
+.field-input.input-ok
+{
+    background: url(../img/icon-ok.png) no-repeat right center #e3ffe5;
+    border: 1px solid #96b796;
+    line-height: 19px;
+}
+
+.field-input.input-error
+{
+    background: url(../img/icon-fail.png) no-repeat right center #ffebef;
+    border: 1px solid red;
+    line-height: 19px;
+}
+
+body
+{
+	margin: 0;
+  padding: 0;
+  background: #2d3238;
+  font-family: corbel, serif;
+}
+
+main {
+  background: #292c2f;
+  margin: 0;
+}
+
+.header {
+  background: #62a0f0;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #161616;
+  display: block;
+  height: 45px;
+  margin: 0;
+  width: 100%;
+}
+
+.content {
+  border-width: 3px;
+  border-style: solid;
+  border-color: #4996e4;
+  color: #f3f3f3;
+  height: 400px;
+  margin: auto;
+  margin-left: 23%;
+  margin-top: 10%;
+  padding-top: 10px;
+  width: 1000px;
+}
+
+.form
+{
+	background: #743838;
+  margin-top: 10px;
+
+}
+
+.registration__text-header
+{
+	font-size: 17pt;
+  margin-left: 70px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.registration__text-email {
+  margin-left: 274px;
+  margin-bottom: 20px;
+}
+
+.registration__check-confirmation {
+  margin-left: 200px;
+}
+
+.save-button {
+  border-radius: 0px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #2483c6;
+  background: #4a6394;
+  color: #2483c6;
+  font-family: corbel;
+  font-weight: 700;
+  font-size: 12pt;
+  height: 35px;
+  line-height: 32px;
+  margin-left: 335px;
+  margin-right: 10px;
+  width: 130px;
+}
+
+.save-button_active:hover {
+  background: #535b63;
+  border-color: #abb4bc;
+  color: #fff;
+}
+
+.password-block {
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-bottom: 20px;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 1px dotted #484d56;
+  border-bottom: 1px dotted #484d56;
+}
+
+.password-block__text-password {
+  margin-left: 190px;
+}
+
+.password-block__text-password-confirmation {
+  margin-left: 77px;
+}
+
+.phone-block{
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-bottom: 20px;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 1px dotted #484d56;
+  border-bottom: 1px dotted #484d56;
+}
+
+.phone-block__text-phone {
+	margin-left: 180px;
+  margin-bottom: 20px;
+}
+
+.form .field-input
+{
+
+  border-radius: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+  border-bottom: 3px solid #065aaf;
+  color: #bdc7d2;
+  font-size: 15pt;
+  height: 30px;
+  margin-left: 10px;
+  padding-left: 5px;
+  width: 400px;
+
+}
+
+.form .field-input_active:focus {
+  border-bottom: 3px solid #2483c6;
+  outline: 0;
+}
+
+.footer {
+  background: #4e8fe4;
+  bottom: 0;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #1e2125;
+  display: block;
+  height: 80px;
+  left: 0;
+  margin: 0;
+  position: fixed;
+  width: 100%;
+}
